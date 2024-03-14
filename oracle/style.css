@@ -1,0 +1,53 @@
+#barraNavegacion {
+    background-color: #312d2a;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 24px;
+    padding-right: 24px;
+    position: relative;
+}
+
+#nav-logo{
+    display: flex;
+    transition: z-index 0s ease 300ms;
+    height: auto;
+    max-width: initial;
+}
+#nav-tools{
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row nowrap;
+    -ms-flex-pack: end;
+    z-index: 1;
+}
+
+#nav-bar{
+    display: block;
+    align-items: center;
+    z-index: 2;
+    opacity: 1;
+}
+
+.bg-display{
+    padding: 48px;
+    background-image: url('recursos/bg-carousel.png');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+    height: 100vh; 
+}
+
+.text-nav{
+    color: #fff;
+    line-height: 1.3;
+    /*padding: 2px 8px 1px*/
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.img-container {
+    max-height: 400px; /* Altura máxima deseada para la imagen */
+    width: auto; /* Ajusta automáticamente el ancho proporcionalmente a la altura */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
