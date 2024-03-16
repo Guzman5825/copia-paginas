@@ -57,10 +57,68 @@
 }
 
 .bg-tarjetas{
-    background-color: #a5a5a5;
-    background-size: cover; /* Para cubrir todo el área del body */
-    background-position: center; /* Centra la imagen */
-    height: 500px; 
+    background-image: url('recursos/bg-tarjetas.png');
+    background-size: 10%;
+    background-repeat: repeat;
     padding: 50px 80px 50px 80px;
     max-height: 900px;
 }
+
+.bg-footer{
+    background-color: #312D2A;
+    color: #fff;
+    padding: 50px 80px 50px 80px;
+}
+
+.col-20-percent{
+        flex: 0 0 auto;
+        width: 20.0%;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cuadros-1{
+    background-image: url('recursos/cuadro-bg-1.jpg');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+    color: #fff;
+    padding: 40px 40px 40px 80px;
+    text-align: end;
+}
+#cuadros-2{
+    background-image: url('recursos/cuadro-bg-2.jpg');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+    color: #fff;
+    padding: 40px 80px 40px 40px;
+    text-align: start;
+
+}
+
+#myTabContent{
+    
+}
+
+#home-tab-pane{
+    min-height: 540px;
+    background-image: url('recursos/tabla-navegacion-1.png');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+}
+
+#profile-tab-pane{
+    min-height: 540px;
+    background-image: url('recursos/tabla-navegacion-2.png');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+}
+#contact-tab-pane{
+    min-height: 540px;
+    background-image: url('recursos/tabla-navegacion-3.png');
+    background-size: cover; /* Para cubrir todo el área del body */
+    background-position: center; /* Centra la imagen */
+}
+
