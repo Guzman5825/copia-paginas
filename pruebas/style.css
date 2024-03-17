@@ -1,0 +1,10 @@
+#tabla{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (min-width: 640px){
+    .ocultar{
+    display: none;
+    }
+}
